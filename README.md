@@ -134,6 +134,7 @@ inference round-trip, split immutability, and evaluation metrics.
 
 ```text
 docs/EXPERIMENT_REPORT.md detailed results, methodology, data estimate
+docs/RELEASE_NOTES.md     release contents, metrics, weight checksums
 RESULTS.md              Chinese results and failure analysis
 MODEL_CARD.md           intended use, metrics, limits, data estimate
 docs/DATA_AND_LICENSES.md data and release boundaries
