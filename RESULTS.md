@@ -6,8 +6,8 @@ pipeline, but failed chart-quality gates. Four-fold x-MAE is `0.14860` versus
 weighted majority baseline `0.47846`. No quality claim is made. The full
 English report is [`docs/EXPERIMENT_REPORT.md`](docs/EXPERIMENT_REPORT.md).
 
-> 状态：**工程闭环通过，生成质量未达标**。  
-> 本文档记录 2026-11-20 在本机 RTX 5060 Laptop 8 GB 上的真实训练结果。  
+> 状态：**工程闭环通过，生成质量未达标**。
+> 本文档记录 2026-11-20 在本机 RTX 5060 Laptop 8 GB 上的真实训练结果。
 > 不得把以下 checkpoint 或样例描述为“已训练成功”或“可用于正式谱面制作”。
 
 ## 1. 结论摘要
@@ -185,4 +185,3 @@ x-MAE 看似接近基线，但生成谱面会明显向屏幕中部收缩、同�
 
 - 不发布原始音频、原始谱面、生成谱面；
 - `data/raw/`、`data/interim/`、`data/processed/`、本机 reports 和生成样例均由 `.gitignore` 排除。
-

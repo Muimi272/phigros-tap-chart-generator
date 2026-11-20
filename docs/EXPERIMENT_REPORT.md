@@ -1,7 +1,7 @@
 # Experimental Results and Failure Analysis
 
-**Release:** `v0.1.0-research`  
-**Date:** 2026-11-20  
+**Release:** `v0.1.0-research`
+**Date:** 2026-11-20
 **Status:** Engineering pipeline validated; generative quality gates failed.
 
 ## Executive summary
