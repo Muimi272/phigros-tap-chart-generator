@@ -1,0 +1,33 @@
+# Environments
+.venv/
+venv/
+
+# Raw and derived data (local research only, no clear redistribution license)
+data/raw/
+data/interim/
+data/processed/
+
+# Large generated artifacts and local experiment reports
+artifacts/
+*.pt
+*.pth
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and local experiment output
+*.log
+*.out
+*.err
+logs/
+runs/
+wandb/

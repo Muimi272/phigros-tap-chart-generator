@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phigros-gen"
+version = "0.1.0"
+description = "Tap-JSON conditioned Phigros chart generation research prototype"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+keywords = ["phigros", "rhythm-game", "chart-generation", "research"]
+urls = {Homepage = "https://github.com/Muimi272/phigros-tap-chart-generator", Repository = "https://github.com/Muimi272/phigros-tap-chart-generator", Issues = "https://github.com/Muimi272/phigros-tap-chart-generator/issues"}
+dependencies = [
+    "numpy>=1.26,<3",
+    "scipy>=1.11,<2",
+    "soundfile>=0.12.1",
+    "jsonschema>=4.20",
+    "tqdm>=4.66",
+    "torch>=2.7.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+# The project currently exposes separate scripts under scripts/.
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"

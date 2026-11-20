@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research prototype, cite the repository and release."
+title: "Phigros Tap-to-Chart Generator: Experimental Research Prototype"
+authors:
+  - family-names: Muimi272
+version: 0.1.0
+date-released: 2026-11-20
+license: MIT
+repository-code: "https://github.com/Muimi272/phigros-tap-chart-generator"
+keywords:
+  - Phigros
+  - rhythm games
+  - chart generation
+  - machine learning
